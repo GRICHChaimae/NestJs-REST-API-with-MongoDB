@@ -1,5 +1,8 @@
 import { Injectable } from '@nestjs/common';
-import { BadRequestException, NotFoundException } from '@nestjs/common/exceptions';
+import {
+  BadRequestException,
+  NotFoundException,
+} from '@nestjs/common/exceptions';
 import { InjectModel } from '@nestjs/mongoose';
 import * as mongoose from 'mongoose';
 import { Book } from './schemas/book.schema';
